@@ -10,6 +10,7 @@ class River
   end
   
   def dry_up
-    self.discharge *= 0.5
+    #self.discharge *= 0.5
+    @discharge *= 0.5
   end
 end
